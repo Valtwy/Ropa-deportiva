@@ -1,0 +1,14 @@
+.hero{
+    display: flex;
+    background-color: yellow;
+}
+
+.imagenprincipal{
+    display: flex;
+
+}
+
+.hero-content{
+    display: flex;
+    background-color: yellow;
+}
