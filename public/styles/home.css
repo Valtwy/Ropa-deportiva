@@ -1,14 +1,56 @@
 .hero{
     display: flex;
-    background-color: yellow;
+    justify-content: center;
+    height: 611px;
+    background-color: #E5E5E5;
 }
 
 .imagenprincipal{
     display: flex;
-
+    width: 635px;
+    height: 512px;
+    margin-top: 43.5px;
 }
 
 .hero-content{
-    display: flex;
-    background-color: yellow;
+    margin-top: 175px;
+    margin-left: 30px;
+    
+}
+
+.hero-category{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: #3C64B1;
+}
+
+.hero-title{
+  
+font-family: mulish;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #373F41;
+margin-top: 12px;
+}
+
+.hero-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 445px;
+    height: 22px;
+    margin-top: 40px;
+    color: #737B7D;
+}
+.hero-button{
+    width: 99px;
+    height: 42px;
+    margin-top: 56px;
+    color: #3C64B1;
 }
