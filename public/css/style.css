@@ -26,6 +26,7 @@ body {
 .pre-header {
     background-color: black;
     padding-bottom: 5px;
+    
 }
 
 .header-cont {
@@ -38,7 +39,7 @@ body {
 }
 
 .logo{
-    width: 50%;
+    width: 40%;
     display: block;
     margin-right: 10px;
     margin-left: 30px;
@@ -148,7 +149,6 @@ body {
 
 }
 
-
 /* FOOTER */
 
 footer {
@@ -204,7 +204,121 @@ padding-bottom: 10px;
     font-size: 20px;
 }
 
+/* carrito */
 
+.cart-titulo {
+    padding: 50px 0px 10px 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cart-seguir-comprando {
+    padding-left: 50px;
+    font-size: 18px;
+    
+}
+
+.cart-producto1, .cart-producto2 {
+    border: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    margin: 15px;
+   
+}
+
+.cart-cont-detalle-der {
+    display: flex;
+    padding: 15px;
+
+}
+
+.cart-detalle-producto1, .cart-detalle-producto2 {
+    position: relative;
+    padding: 15px 15px 0px;
+}
+
+.cart-producto1 i{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: white;
+    border: 0;
+    padding: 2px;
+    font-size: 20px;    
+}
+
+.cart-producto2 i{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: white;
+    border: 0;
+    padding: 2px;
+    font-size: 20px;    
+}
+
+.cart-cant-producto1, .cart-cant-producto2 {
+    padding: 0px 15px 0px 0px;
+}
+
+
+.cart-cant-producto1 input {
+    display: flex;
+    width: 65px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.cart-cant-producto2 input {
+    display: flex;
+    width: 65px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.cart-cant-field {
+    display: flex;
+    width: 65px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.cart-nombre-producto {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart-talle-product {
+    padding: 5px
+}
+
+.cart-precio-texto {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cart-editar-prod-texto {
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 5px;
+    color: blue;
+}
+
+.cart-cont-derecha p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cart-field-codigo {
+    display: flex;
+}
 /* tablet */
 @media (min-width: 481px) {
 
@@ -226,6 +340,10 @@ padding-bottom: 10px;
 /* laptop*/
 @media (min-width: 769px) {
 
+    .pre-header {
+        display: block;
+    }
+
     .logo{
         width: 50%;
         display: block;
@@ -233,7 +351,7 @@ padding-bottom: 10px;
         margin-left: 30px;
         padding: 0px 10px 10px 15px;
     }
-    
+
 .burger-menu {
     display: none;
 }
