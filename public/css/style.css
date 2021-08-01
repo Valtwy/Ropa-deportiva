@@ -219,7 +219,7 @@ padding-bottom: 10px;
 }
 
 .cart-producto1, .cart-producto2 {
-    border: 1px solid #ebebeb;
+    border: 1px solid #d4d1d1;
     display: flex;
     flex-direction: column;
     padding: 7px;
@@ -322,6 +322,10 @@ padding-bottom: 10px;
     font-weight: 700;
     font-size: 15px;
     padding-top: 5px;
+}
+
+.cart-espacio-texto {
+    margin-bottom: 5px;
 }
 
 .cart-cont-derecha input{
@@ -511,7 +515,7 @@ padding-bottom: 10px;
         display: block;
         width: 70%;
         padding: 50px;
-        border: 1px solid #ebebeb;
+        border: 1px solid #d4d1d1;
         margin-left: 15%;
         margin-bottom: 30px;
         margin-top: 30px;
@@ -523,7 +527,7 @@ padding-bottom: 10px;
     .cart-nl-field input{
         border-style: none;
         border: 1px solid black;
-        width: 70%;
+        width: 40%;
     }
     
     .cart-cont-suscribirse input::placeholder {
@@ -536,7 +540,7 @@ padding-bottom: 10px;
         border-style: none;
         color: white;
         height: 30px;
-        width: 30%;
+        width: 20%;
     }
     
     .cart-nl-field {
