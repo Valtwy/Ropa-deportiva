@@ -230,7 +230,6 @@ padding-bottom: 10px;
 .cart-cont-detalle-der {
     display: flex;
     padding: 15px;
-
 }
 
 .cart-detalle-producto1, .cart-detalle-producto2 {
@@ -296,7 +295,7 @@ padding-bottom: 10px;
 }
 
 .cart-talle-product {
-    padding: 5px
+    padding: 10px
 }
 
 .cart-precio-texto {
@@ -310,14 +309,83 @@ padding-bottom: 10px;
     padding-top: 5px;
     color: blue;
 }
-
-.cart-cont-derecha p {
-    font-weight: 700;
-    font-size: 14px;
+.cart-cont-derecha {
+    padding: 25px;
+    justify-content: space-evenly;
+    width: 80%;
 }
 
-.cart-field-codigo {
+.cart-envio, .cart-cont-derecha, .cart-detalle-de-compra {
+    padding-top: 20px;
+}
+.cart-cont-derecha p {
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.cart-cont-derecha input{
+    border-style: none;
+    border: 1px solid black;
+    width: 70%;
+}
+
+.cart-cont-derecha input::placeholder {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+
+.cart-field-codigo, .cart-field-envio {
     display: flex;
+    padding-top: 8px;
+}
+
+.cart-boton-chico {
+    background-color: black;
+    border-style: none;
+    color: white;
+    height: 30px;
+    width: 30%;
+}
+
+.cart-display-envio {
+    padding-top: 5px;
+}
+
+.cart-boton-compra {
+    background-color: black;
+    border-style: none;
+    color: white;
+    height: 35px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cart-cont-pagos{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    padding: 20px 25px 25px;
+}
+
+.cart-titulo2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart-cont-pagos div {
+    padding-top: 15px;
+}
+
+.cart-cont-pagos img {
+    width: 100%;
+    padding-top: 15px;
+}
+.cart-cont-suscribirse {
+    display: none;
 }
 /* tablet */
 @media (min-width: 481px) {
@@ -340,17 +408,17 @@ padding-bottom: 10px;
 /* laptop*/
 @media (min-width: 769px) {
 
-    .pre-header {
-        display: block;
-    }
+.pre-header {
+     display: block;
+}
 
-    .logo{
-        width: 50%;
-        display: block;
-        margin-right: 10px;
-        margin-left: 30px;
-        padding: 0px 10px 10px 15px;
-    }
+.logo{
+    width: 50%;
+    display: block;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding: 0px 10px 10px 15px;
+}
 
 .burger-menu {
     display: none;
@@ -396,6 +464,44 @@ padding-bottom: 10px;
     .footer-cont-main {        
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    /* carrito */
+
+    .cart-cont-suscribirse {
+        display: block;
+        width: 100%;
+        padding: 20px 25px 25px;
+        border: 1px solid #ebebeb;
+        margin: 15px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .cart-nl-field input{
+        border-style: none;
+        border: 1px solid black;
+        width: 70%;
+    }
+    
+    .cart-cont-suscribirse input::placeholder {
+        font-size: 14px;
+        padding-left: 5px;
+      }
+    
+    .cart-cont-suscribirse button {
+        background-color: black;
+        border-style: none;
+        color: white;
+        height: 30px;
+        width: 30%;
+    }
+    
+    .cart-nl-field {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
     }
     
 }
