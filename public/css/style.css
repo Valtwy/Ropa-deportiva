@@ -558,12 +558,7 @@ padding-bottom: 10px;
 }
 /*detalle de producto*/
 
-*{
-    width: 100%;
-}
-
 .fondo-juan{
-    position: absolute;
     background-color: #ebebeb;
 }
 img{
