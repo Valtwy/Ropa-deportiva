@@ -6,20 +6,15 @@ const path=require('path');
 app.use(express.static("public"))
 
 app.get("/",function (req, res) {
-    res.sendFile(path.join(__dirname, "/views/template.html"))
-})
-
-app.get("/",function (req, res) {
     res.sendFile(path.join(__dirname, "/views/home.html"))
 })
 
-app.use(express.static("public"))
 
-app.get('/register.html', (req,res) => {
+app.get('/register', (req,res) => {
     res.sendFile(path.join(__dirname, '/views/register.html'));
 });
 
-app.get('/login.html', (req,res) => {
+app.get('/login', (req,res) => {
     res.sendFile(path.join(__dirname, '/views/login.html'));
 });
 
@@ -27,7 +22,7 @@ app.get('/carrito', (req,res) => {
     res.sendFile(path.join(__dirname, '/views/carrito.html'));
 });
 
-app.get('/detalle.html', (req,res) => {
+app.get('/detalle', (req,res) => {
     res.sendFile(path.join(__dirname, '/views/detalle.html'));
 });
 
