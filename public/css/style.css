@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color:rgb(200,200,200);
 }
 
 /* HEADER */
@@ -409,13 +410,6 @@ padding-bottom: 10px;
     
 }
 
-/* laptop*/
-@media (min-width: 769px) {
-
-.pre-header {
-     display: block;
-}
-
 .logo{
     width: 50%;
     display: block;
@@ -548,15 +542,7 @@ padding-bottom: 10px;
         justify-content: center;
         padding-top: 10px;
     }
-    
-}
-    
-/* desktop */
-@media (min-width: 1280px) {
 
-
-}
-/*detalle de producto*/
 
 .fondo-juan{
     background-color: #ebebeb;
@@ -646,3 +632,62 @@ font-weight: bold;
     }
 }
 
+/* Login */
+
+.registro{
+    padding-top: 100px;
+}
+
+.logo-registro{
+    width: 100%;
+    height: 100%;
+}
+.registro form {
+    width: 100%;
+}
+.registro form input {
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 20px;
+}
+.registro form label {
+    padding-bottom: 100px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.registro form button {
+    font-weight: bold;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #666;
+    height: 30px;
+
+}
+button.entrar:hover {
+    background-color: #4762cf;
+}
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/*tablet*/
+@media (min-width: 500px) {
+
+    .pre-header {
+         display: block;
+    }
+    .registro{
+        display: flex;
+    }
+}
+/*desktop*/
+@media (min-width: 1280px) {
+
+}
