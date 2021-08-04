@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color:rgb(200,200,200);
 }
 
 /* HEADER */
@@ -26,7 +27,6 @@ body {
 .pre-header {
     background-color: black;
     padding-bottom: 5px;
-    
 }
 
 .header-cont {
@@ -410,13 +410,6 @@ padding-bottom: 10px;
     
 }
 
-/* laptop*/
-@media (min-width: 769px) {
-
-.pre-header {
-     display: block;
-}
-
 .logo{
     width: 50%;
     display: block;
@@ -549,15 +542,7 @@ padding-bottom: 10px;
         justify-content: center;
         padding-top: 10px;
     }
-    
-}
-    
-/* desktop */
-@media (min-width: 1280px) {
 
-
-}
-/*detalle de producto*/
 
 .fondo-juan{
     background-color: #ebebeb;
@@ -647,3 +632,78 @@ font-weight: bold;
     }
 }
 
+/* Login */
+
+.registro{
+    padding-top: 100px;
+}
+.logo-registro{
+    width: 100%;
+    height: 100%;
+    animation: aumentar 1s linear infinite alternate;
+}
+
+@keyframes aumentar {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.03);
+    }
+}
+.registro form {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.registro form input {
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 20px;
+}
+.registro form label {
+    padding-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.registro form button {
+    font-weight: bold;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #666;
+    height: 30px;
+}
+button.entrar:hover {
+    background-color: #4762cf;
+}
+.botones {
+    display: flex;
+    margin-top: 25px;
+}
+.texto-notenes{
+    padding-bottom: 100px;
+    margin-top:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+/*tablet*/
+@media (min-width: 500px) {
+
+    .pre-header {
+         display: block;
+    }
+    .registro{
+        display: flex;
+    }
+}
+/*desktop*/
+@media (min-width: 1280px) {
+
+}

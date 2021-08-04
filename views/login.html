@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ropa Deportiva</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css\style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
         </div>       
         <div class="header-cont">
                 <div class="header-logo">
-                    <img class="logo" src="images\logo1.png" alt="logo">                
+                    <a href="http://localhost:3030/"><img class="logo" src="images\alien.png" alt="logo"></a>              
                 </div>
                 <div class="header-navbar">
                     <div class="nav">
@@ -61,7 +61,22 @@
         </div> 
         </div>
     </header>
-<footer>
+    <div class="registro">
+        <div class="logo-registro">
+            <img class="logo" src="images\alien-white.png" alt="logo">                
+        </div>
+        <form action="index.html" method="POST">
+            <label for="usuario">Nombre de usuario:</label> <br>
+            <input type="text" name="usuario" id="usuario" required> <br>
+            <label for="password">Contraseña:</label><br>
+            <input type="password" name="password" id="password" required><br>
+                        <div class="botones">
+            <button class="entrar" type="submit">ENTRAR</button>
+            </div>
+            <p class="texto-notenes">No tenes cuenta? <a href="/register">Crea una!</a> </p>
+            </form>
+    </div>
+    <footer>
     <div class="footer-cont-main">
         <div class="footer-cont1">
             <p>TARJETAS DE REGALO</p>
@@ -92,6 +107,6 @@
             <i class="fab fa-instagram"></i>
         </div>
     </div>
-</footer>       
+    </footer>       
     </body>
 </html>
