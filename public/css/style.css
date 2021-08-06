@@ -52,7 +52,13 @@ body {
 .nav {
     display: inline-block;  
 }
-    
+
+.titulo-login{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
 .login {
     padding-right: 30px; 
     border-bottom: 1px solid white; 
