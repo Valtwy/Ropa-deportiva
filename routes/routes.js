@@ -14,3 +14,5 @@ Router.get("./login", productosController.login)
 Router.get("./register", productosController.register)
 
 Router.get("./create", productosController.create)
+
+module.exports = router 
