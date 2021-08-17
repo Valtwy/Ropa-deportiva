@@ -2,13 +2,21 @@ const express=require("express");
 const app= express();
 const port=3030;
 const path=require('path');
-const rutas = require("../routes/routes.js");
+const mainRoutes = require("./routes/mainRoutes.js");
+const productsRoutes = require("./routes/productsRoutes.js");
+const usersRoutes = require("./routes/usersRoutes.js");
 
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
 
-app.use("./routes", rutas);
+app.use("/", mainRoutes);
+
+app.use("/products", productsRoutes);
+
+app.use("/users", usersRoutes);
+
+
 
 
 // app.get("/",function (req, res) {
@@ -28,7 +36,7 @@ app.use("./routes", rutas);
 //});
 
 //app.get('/detalle', (req,res) => {
- //   res.sendFile(path.join(__dirname, '/views/detalle.html'));
+//   res.sendFile(path.join(__dirname, '/views/detalle.html'));
 //});
 
 app.listen(port, () => 

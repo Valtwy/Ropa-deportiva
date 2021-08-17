@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .hero{
     display: flex;
     justify-content: center;
@@ -20,8 +24,7 @@
 }
 
 .hero-category{
-    font-family: Mulish;
-    font-style: normal;
+        font-style: normal;
     font-weight: 800;
     font-size: 14px;
     color: #3C64B1;
@@ -29,7 +32,6 @@
 
 .hero-title{
   
-font-family: mulish;
 font-size: 44px;
 font-style: normal;
 font-weight: 700;
@@ -67,7 +69,6 @@ margin-top: 12px;
 
 .filter-categoria{
     margin-top: 146px;
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -78,7 +79,6 @@ margin-top: 12px;
     justify-content: space-between;
     margin-top: 36px;
     color: #737B7D;
-    font-family: Mulish;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -91,7 +91,6 @@ margin-top: 110px;
 }
 
 .filter-marca{
-    font-family: Mulish;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -129,7 +128,6 @@ font-size: 18px;
 
 }
 .titulozapatilla{
-    font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -139,7 +137,6 @@ font-size: 18px;
 
 .precioZapatilla{
     text-align: center;
-    font-family: Mulish;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
