@@ -1,11 +1,11 @@
 const controlador = {
     login: (req,res) => {
-        res.render("\products\login.ejs");
+        res.render("users/login");
     
     },
     register: (req,res) => {
-        res.render("\products\register.ejs");
+        res.render("users/register");
     }
     }
-    
+
     module.exports = controlador

@@ -1,13 +1,13 @@
 const controlador = {
 
 detalle: (req,res) => {
-    res.render("\products\detalle.ejs");
+    res.render("products/detalle");
 },
 carrito: (req,res) => {
-    res.render("\products\carrito.ejs");
+    res.render("products/carrito");
 },
 create: (req,res) => {
-    res.render("\products\create.ejs");
+    res.render("products/create");
 }
 }
 
