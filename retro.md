@@ -12,5 +12,18 @@ Trabajo en equipo.
 4. Hacer menos
 Tratar las cosas de manera individual, mandarse solo.
 
+Retro del Sprint 3
+1. Comenzar a hacer
+Organizarnos mejor con la division de tareas.
+Trabajar con branches
+2. Hacer más
+Alinearse mas en equipo.
+Tener reuniones más seguido.
+3. Continuar haciendo.
+Buena comunicacion.
+Trabajo en equipo. 
+4. Hacer menos
+Empezar tarde a trabajar sobre las entregas. 
+
 
 LINK AL TABLERO: https://trello.com/b/7i3hIoQb/proyecto
